@@ -1,16 +1,17 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 @font-face {
     font-family: 'FonteLogo';
-    src: url("../_fonts/bubblegum-sans-regular.otf");
+    src: url("../_fonts/bubblegum-sans-regular.otf"); /*configuração de fonte do cabecalho*/
 }
 body {
-    background-color: #dddddd;
-    color: rgba(0,0,0,1);
+    background-color: #dddddd; /*COMENTARIO EM CSS*/  
+    color: rgba(0,0,0,1); 
 }
-
+    
 div#interface {
     width: 900px;
-    background-color: #ffffff;
+    background-color: #ffffff;                  
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0,.5);
     padding: 10px 10px 10px 10px;
@@ -42,7 +43,7 @@ header#cabecalho h1 {
 }
 
 header#cabecalho h2 {
-    font-family: Arial, sans-serif;
+    font-family: 'Titillium Web', sans-serif; /*font alterada pelo google fonts junto do inport na parte alta*/
     font-size: 15pt;
     color: #888888;
     padding: 0px;
@@ -108,3 +109,27 @@ nav#menu li:hover {
 nav#menu h1 {
     display: none;
 }
+
+
+
+section#corpo {
+    display: block;
+    width: 520px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+}
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+footer#rodape p {
+    text-align: center;
+}
+
+
