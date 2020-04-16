@@ -50,7 +50,7 @@ header#cabecalho h2 {
     margin-top: 0px;
 }
 
-/* FORMATAÇÃO DE IMAGEN COM LEGENDAS*/
+/* FORMATAÇÃO DE IMAGEN COM LEGENDAS em css*/
 
 figure.foto-legenda {
     position: relative;
@@ -80,7 +80,7 @@ figure.foto-legenda:hover figcaption {
     opacity: 1;
 }
 
-/*FORMATAÇÃO DO MENU*/
+/*FORMATAÇÃO DO MENU em css*/
 nav#menu {
     display: block;
 }
@@ -110,8 +110,6 @@ nav#menu h1 {
     display: none;
 }
 
-
-
 section#corpo {
     display: block;
     width: 520px;
@@ -119,7 +117,25 @@ section#corpo {
     border-right: 1px solid #606060;
     padding-right: 15px;
 }
+/*formatando as noticias principais no article em css*/
+article#noticia-principal h1{
+    font-size: 12px;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+header#cabecalho-artigo h1 {
 
+}
+header#cabecalho-artigo h2 {
+
+}
+header#cabecalho-artigo h3{
+    
+}
+
+/*formatando a tabela em css*/
 table#tabelaspec {
     border: 1px solid #606060;
     border-spacing: 0px;
@@ -130,12 +146,42 @@ table#tabelaspec {
 table#tabelaspec td {
     border: 1px solid #606060;
     padding: 10px;
+    text-align: center;
+    vertical-align: middle;    
 }
+
+table#tabelaspec td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
+}
+
+table#tabelaspec caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight:  bolder;
+}
+
+table#tabelaspec caption span { 
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+/*formatação da barra a direita em css*/
 aside#lateral {
     display: block;
     width: 350px;
     float: right;
 }
+
+/*formatação do rodape em css*/
 footer#rodape {
     clear: both;
     border-top: 1px solid #606060;
