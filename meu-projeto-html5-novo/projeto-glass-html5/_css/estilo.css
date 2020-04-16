@@ -23,7 +23,7 @@ p {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 780px;
+    left: 800px;
     top: 70px;
 }
 
@@ -73,7 +73,7 @@ figure.foto-legenda figcaption {
     height: 100%;
     padding: 10%;
     box-sizing: border-box;
-    transition: opacity 1s;
+    transition: opacityop 1s;
 }
 
 figure.foto-legenda:hover figcaption {
@@ -90,7 +90,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 300px;
+    left: 375px;
 }
 
 nav#menu li {
@@ -132,7 +132,7 @@ header#cabecalho-artigo h2 {
 
 }
 header#cabecalho-artigo h3{
-    
+
 }
 
 /*formatando a tabela em css*/
