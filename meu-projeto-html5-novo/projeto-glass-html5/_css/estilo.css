@@ -73,7 +73,7 @@ figure.foto-legenda figcaption {
     height: 100%;
     padding: 10%;
     box-sizing: border-box;
-    transition: opacityop 1s;
+    transition: opacitytop 1s;
 }
 
 figure.foto-legenda:hover figcaption {
